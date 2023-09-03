@@ -12,7 +12,7 @@
     }
   },
   "scripts": {
-    "docs:dev": "vitepress dev --force --host",
+    "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   }
