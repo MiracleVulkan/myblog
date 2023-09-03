@@ -1,0 +1,19 @@
+{
+	"type": "module",
+  "devDependencies": {
+    "vitepress": "1.0.0-rc.10"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "search-insights"
+      ]
+    }
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev --force --host",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
